@@ -8,6 +8,7 @@ lib-cov
 *.gz
 *.pyc
 
+
 pids
 logs
 results
@@ -39,6 +40,9 @@ output
 
 # generated sql:
 schema.sql
+
+.vscode
+
 
 ######################
 # OS generated files #

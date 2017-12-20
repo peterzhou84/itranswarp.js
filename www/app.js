@@ -169,6 +169,9 @@ let filters = {
             h = parseInt(input / 60),
             m = input % 60;
         return h + ' hours ' + m + ' minutes';
+    }, 
+    addslashes: function(input){
+        return input;
     }
 };
 
